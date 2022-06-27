@@ -1,0 +1,76 @@
+
+
+.Seating_Master_Box {
+    display: grid;
+    grid-template-areas:
+        "a a a"
+        "b c d"
+    ;
+    width: 244px;
+    margin: 10px;
+}
+
+.Seat_Attendee {
+    background: white;
+    height: 60px;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    font-weight: bolder;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
+.seating_box {
+    height: 72px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub_1 {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.sub_2 {
+    text-align: center;
+    height: 30px;
+    font-size: 32px;
+}
+
+.sub_3 {
+    padding-top: 13px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.seat_a {
+    grid-area: a;
+}
+
+.seat_b {
+    grid-area: b;
+    width: 70px;
+    margin-right: 4px;
+    border-radius:  0 0 0 4px;
+}
+
+.seat_c {
+    grid-area: c;
+    width: 80px;
+    margin-right: 4px;
+}
+
+.seat_d {
+    grid-area: d;
+    width: 86px;
+    border-radius: 0 0 4px 0;
+    background-color: gray;
+}

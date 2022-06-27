@@ -1,0 +1,43 @@
+
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background: black;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 276px;
+    width: 488px;
+    transform: translateY(40px);
+}
+
+
+.QR {
+    background: black;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 16px;
+    bottom: 16px;
+}
+
+.link {
+    position: relative;
+    text-align: right;
+    transform: translateY(-35px);
+    padding-right: 16px;
+}
+
+
+@media ( max-width: 488px ) {
+    .logo {
+        width: 100vw;
+    }
+}

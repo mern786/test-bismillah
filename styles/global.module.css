@@ -1,0 +1,15 @@
+
+
+.app {
+  background: black;
+  height: 100vw;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  padding: 80px;
+}
+
